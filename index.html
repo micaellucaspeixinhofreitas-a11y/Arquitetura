@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estúdio de Arquitetura</title>
+<meta name="description" content="Estúdio de arquitetura e interiores: projetos residenciais e culturais, da concepção à obra.">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<!-- header -->
+<header class="hdr" id="hdr">
+  <div class="shell hdr__in">
+    <a class="logo" href="#topo" aria-label="Estúdio — início">
+      <span class="logo__mark" aria-hidden="true">E</span>
+      <span class="logo__txt">Estúdio</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#filosofia">Filosofia</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="hdr__right">
+      <a class="btn btn--sm btn--paper" href="#contato">Agendar conversa</a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav class="menu__nav" aria-label="Menu mobile">
+    <a href="#filosofia">Filosofia</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <div class="menu__foot">
+    <p class="micro">Fale com a gente</p>
+    <a href="mailto:contato@estudio.com.br">contato@estudio.com.br</a>
+  </div>
+</div>
+
+<main id="conteudo">
+
+<!-- hero -->
+<section class="hero" id="topo" aria-roledescription="carrossel" aria-label="Projetos em destaque">
+  <div class="hero__media">
+
+    <div class="hero__slide is-active">
+      <img src="img/hero-1.jpg" alt="Casa Mantiqueira ao entardecer">
+      <div class="hero__scrim"></div>
+      <div class="shell hero__inner">
+        <div>
+          <p class="micro reveal-up" style="--d:200ms">Casa Mantiqueira</p>
+          <h1 class="hero__title">
+            <span class="line"><span class="line__in" style="--i:0">Arquitetura que</span></span>
+            <span class="line"><span class="line__in" style="--i:1">nasce do lugar.</span></span>
+          </h1>
+          <p class="hero__text reveal-up" style="--d:520ms">Projetos residenciais e culturais pensados a partir do terreno, da luz e do modo de viver de quem habita.</p>
+          <div class="hero__actions reveal-up" style="--d:680ms">
+            <a class="btn btn--paper" href="#projetos">Ver projetos <span class="btn__arrow" aria-hidden="true">→</span></a>
+            <a class="btn" href="#contato" style="border:1px solid rgba(247,246,242,.5)">Iniciar um projeto</a>
+          </div>
+        </div>
+        <aside class="hero__side reveal-up" style="--d:800ms">
+          <p class="micro">Nota do projeto</p>
+          <p class="hero__note">Madeira, pedra local e grandes beirais para a serra.</p>
+        </aside>
+      </div>
+    </div>
+
+    <div class="hero__slide" aria-hidden="true">
+      <img src="img/hero-2.jpg" alt="Apartamento Jardins, sala integrada" loading="lazy">
+      <div class="hero__scrim"></div>
+      <div class="shell hero__inner">
+        <div>
+          <p class="micro reveal-up" style="--d:200ms">Apartamento Jardins</p>
+          <h2 class="hero__title">
+            <span class="line"><span class="line__in" style="--i:0">Interiores com</span></span>
+            <span class="line"><span class="line__in" style="--i:1">precisão e calma.</span></span>
+          </h2>
+          <p class="hero__text reveal-up" style="--d:520ms">Cada detalhe documentado, cada decisão explicada com desenho.</p>
+          <div class="hero__actions reveal-up" style="--d:680ms">
+            <a class="btn btn--paper" href="#projetos">Ver projetos <span class="btn__arrow" aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <aside class="hero__side reveal-up" style="--d:800ms">
+          <p class="micro">Nota do projeto</p>
+          <p class="hero__note">Marcenaria contínua que organiza e some.</p>
+        </aside>
+      </div>
+    </div>
+
+    <div class="hero__slide" aria-hidden="true">
+      <img src="img/hero-3.jpg" alt="Pavilhão Serra, vista externa" loading="lazy">
+      <div class="hero__scrim"></div>
+      <div class="shell hero__inner">
+        <div>
+          <p class="micro reveal-up" style="--d:200ms">Pavilhão Serra</p>
+          <h2 class="hero__title">
+            <span class="line"><span class="line__in" style="--i:0">Espaços públicos</span></span>
+            <span class="line"><span class="line__in" style="--i:1">para a cultura.</span></span>
+          </h2>
+          <p class="hero__text reveal-up" style="--d:520ms">Do partido do edifício à espessura da esquadria, com o mesmo rigor.</p>
+          <div class="hero__actions reveal-up" style="--d:680ms">
+            <a class="btn btn--paper" href="#projetos">Ver projetos <span class="btn__arrow" aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <aside class="hero__side reveal-up" style="--d:800ms">
+          <p class="micro">Nota do projeto</p>
+          <p class="hero__note">Concreto aparente e luz zenital.</p>
+        </aside>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="hero__bar">
+    <div class="shell hero__bar-in">
+      <p class="micro hero__loc">São Paulo · Brasil</p>
+      <div class="hero__cue" aria-hidden="true"><span class="micro">Role</span><span class="cue-line"></span></div>
+      <div class="hero__ctrl">
+        <button class="play" id="play" type="button" aria-pressed="false" aria-label="Pausar apresentação">
+          <svg class="play__pause" width="10" height="10" viewBox="0 0 10 10" fill="currentColor" aria-hidden="true"><rect x="1.5" y="1" width="2.4" height="8"/><rect x="6.1" y="1" width="2.4" height="8"/></svg>
+          <svg class="play__go" width="10" height="10" viewBox="0 0 10 10" fill="currentColor" aria-hidden="true"><path d="M2.5 1l6.5 4-6.5 4z"/></svg>
+        </button>
+        <div class="counter" aria-live="off">
+          <span id="slideNow">01</span><span class="counter__sep">/</span><span class="counter__tot" id="slideTot">03</span>
+        </div>
+        <div style="display:flex">
+          <button class="arrow" type="button" data-dir="-1" aria-label="Slide anterior">←</button>
+          <button class="arrow" type="button" data-dir="1" aria-label="Próximo slide">→</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- filosofia -->
+<section class="sec" id="filosofia">
+  <div class="shell philo__grid">
+    <div class="philo__a">
+      <p class="micro kicker" data-reveal>Filosofia</p>
+      <h2 class="h2" data-reveal data-delay="80">Projetar é escutar o lugar antes de desenhar.</h2>
+      <p class="lead" data-reveal data-delay="160">Começamos pelo terreno, pelo clima e pelo cotidiano de quem vai morar. O resto vem depois.</p>
+    </div>
+    <div class="philo__b" data-reveal data-delay="120">
+      <p>Acreditamos em casas que parecem ter sempre existido onde estão. Isso exige menos gesto e mais critério: materiais honestos, proporções calmas e uma obra conduzida com disciplina.</p>
+      <p>Cada etapa chega documentada e cada dúvida é respondida com desenho. O cliente acompanha o processo sem precisar apagar incêndio.</p>
+      <a class="tlink" href="#contato">Conheça nosso processo <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="philo__c mask" data-mask data-delay="100">
+      <img src="img/filosofia.jpg" alt="Maquete e desenhos sobre a mesa do estúdio" loading="lazy">
+    </figure>
+  </div>
+</section>
+
+<!-- projetos -->
+<section class="sec hair" id="projetos">
+  <div class="shell">
+    <div class="sec__head">
+      <h2 class="h2" data-reveal>Projetos selecionados</h2>
+      <p class="micro" data-reveal data-delay="80">Residencial · Cultural</p>
+    </div>
+    <div class="projects__grid">
+      <a class="proj" href="#contato" data-reveal>
+        <figure class="proj__fig mask" data-mask><img src="img/proj-1.jpg" alt="Casa Mantiqueira" loading="lazy"></figure>
+        <div class="proj__meta"><div><h3 class="proj__title">Casa Mantiqueira</h3><p class="micro">Residencial · 2024</p></div><span class="proj__go" aria-hidden="true">→</span></div>
+        <p class="micro proj__loc">Serra da Mantiqueira, MG</p>
+      </a>
+      <a class="proj" href="#contato" data-reveal data-delay="80">
+        <figure class="proj__fig mask" data-mask data-delay="80"><img src="img/proj-2.jpg" alt="Apartamento Jardins" loading="lazy"></figure>
+        <div class="proj__meta"><div><h3 class="proj__title">Apartamento Jardins</h3><p class="micro">Interiores · 2023</p></div><span class="proj__go" aria-hidden="true">→</span></div>
+        <p class="micro proj__loc">São Paulo, SP</p>
+      </a>
+      <a class="proj" href="#contato" data-reveal data-delay="160">
+        <figure class="proj__fig mask" data-mask data-delay="160"><img src="img/proj-3.jpg" alt="Pavilhão Serra" loading="lazy"></figure>
+        <div class="proj__meta"><div><h3 class="proj__title">Pavilhão Serra</h3><p class="micro">Cultural · 2023</p></div><span class="proj__go" aria-hidden="true">→</span></div>
+        <p class="micro proj__loc">Campos do Jordão, SP</p>
+      </a>
+      <a class="proj" href="#contato" data-reveal data-delay="240">
+        <figure class="proj__fig mask" data-mask data-delay="240"><img src="img/proj-4.jpg" alt="Casa Litoral" loading="lazy"></figure>
+        <div class="proj__meta"><div><h3 class="proj__title">Casa Litoral</h3><p class="micro">Residencial · 2022</p></div><span class="proj__go" aria-hidden="true">→</span></div>
+        <p class="micro proj__loc">Litoral Norte, SP</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- serviços -->
+<section class="sec hair" id="servicos">
+  <div class="shell">
+    <div class="sec__head">
+      <h2 class="h2" data-reveal>Serviços</h2>
+      <p class="lead" data-reveal data-delay="80">Do estudo preliminar à entrega das chaves.</p>
+    </div>
+    <div class="services__grid">
+      <article class="svc" data-reveal>
+        <svg class="svc__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><path d="M4 26V12l12-8 12 8v14z"/><path d="M13 26v-8h6v8"/></svg>
+        <h3 class="svc__title">Projeto de arquitetura</h3>
+        <p class="svc__txt">Estudo preliminar, anteprojeto e projeto executivo, com desenhos completos.</p>
+        <span class="svc__line"></span>
+      </article>
+      <article class="svc" data-reveal data-delay="70">
+        <svg class="svc__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><rect x="5" y="9" width="22" height="16"/><path d="M5 15h22M12 9v16"/></svg>
+        <h3 class="svc__title">Interiores</h3>
+        <p class="svc__txt">Layout, marcenaria, iluminação e especificação de materiais.</p>
+        <span class="svc__line"></span>
+      </article>
+      <article class="svc" data-reveal data-delay="140">
+        <svg class="svc__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><path d="M6 26l10-20 10 20z"/><path d="M11 19h10"/></svg>
+        <h3 class="svc__title">Gestão de obra</h3>
+        <p class="svc__txt">Acompanhamento semanal, cronograma e controle de custos.</p>
+        <span class="svc__line"></span>
+      </article>
+      <article class="svc" data-reveal data-delay="210">
+        <svg class="svc__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><circle cx="16" cy="16" r="10"/><path d="M16 6v20M6 16h20"/></svg>
+        <h3 class="svc__title">Paisagismo</h3>
+        <p class="svc__txt">Jardins e áreas externas integrados à arquitetura.</p>
+        <span class="svc__line"></span>
+      </article>
+      <article class="svc" data-reveal data-delay="280">
+        <svg class="svc__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><path d="M5 5h22v22H5z"/><path d="M5 13h22M13 13v14"/></svg>
+        <h3 class="svc__title">Consultoria e laudos</h3>
+        <p class="svc__txt">Análise de terreno, viabilidade e revisão de projetos existentes.</p>
+        <span class="svc__line"></span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- números -->
+<section class="numbers" aria-label="Estúdio em números">
+  <div class="numbers__bg"><img data-parallax="0.08" src="img/numeros.jpg" alt="" loading="lazy"></div>
+  <div class="shell numbers__grid">
+    <div class="stat" data-reveal><p class="stat__num" data-count="18">18</p><p class="micro stat__lbl">Anos de prática</p></div>
+    <div class="stat" data-reveal data-delay="100"><p class="stat__num" data-count="120">120</p><p class="micro stat__lbl">Projetos entregues</p></div>
+    <div class="stat" data-reveal data-delay="200"><p class="stat__num" data-count="32">32</p><p class="micro stat__lbl">Obras conduzidas</p></div>
+    <div class="stat" data-reveal data-delay="300"><p class="stat__num" data-count="14">14</p><p class="micro stat__lbl">Profissionais</p></div>
+    <div class="numbers__note" data-reveal data-delay="300">
+      <p class="serif-i">Números de exemplo. Substitua pelos dados reais do estúdio.</p>
+      <p class="micro demo-note">Conteúdo demonstrativo</p>
+    </div>
+  </div>
+</section>
+
+<!-- reconhecimento -->
+<section class="sec" id="reconhecimento">
+  <div class="shell">
+    <div class="sec__head">
+      <h2 class="h2" data-reveal>Reconhecimento</h2>
+    </div>
+    <div class="awards__row">
+      <div class="aw" data-reveal><span class="aw__mark serif" aria-hidden="true">I</span><p class="aw__name">Prêmio de Arquitetura Residencial</p><p class="micro aw__meta">Casa Mantiqueira · 2024</p></div>
+      <div class="aw" data-reveal data-delay="80"><span class="aw__mark serif" aria-hidden="true">II</span><p class="aw__name">Menção honrosa, Bienal de Arquitetura</p><p class="micro aw__meta">Pavilhão Serra · 2023</p></div>
+      <div class="aw" data-reveal data-delay="160"><span class="aw__mark serif" aria-hidden="true">III</span><p class="aw__name">Melhor projeto de interiores</p><p class="micro aw__meta">Apartamento Jardins · 2023</p></div>
+      <div class="aw" data-reveal data-delay="240"><span class="aw__mark serif" aria-hidden="true">IV</span><p class="aw__name">Finalista, prêmio de sustentabilidade</p><p class="micro aw__meta">Casa Litoral · 2022</p></div>
+    </div>
+    <p class="micro demo-note">Conteúdo demonstrativo</p>
+  </div>
+</section>
+
+<!-- depoimentos -->
+<section class="sec hair" id="depoimentos">
+  <div class="shell">
+    <div class="sec__head">
+      <h2 class="h2" data-reveal>Depoimentos</h2>
+      <div class="voices__nav" data-reveal data-delay="80">
+        <button class="arrow arrow--dark" type="button" id="vPrev" aria-label="Depoimentos anteriores">←</button>
+        <button class="arrow arrow--dark" type="button" id="vNext" aria-label="Próximos depoimentos">→</button>
+      </div>
+    </div>
+    <div class="voices__grid" id="voicesGrid" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- contato -->
+<section class="sec hair" id="contato">
+  <div class="shell contact__grid">
+    <div class="contact__lead">
+      <p class="micro kicker" data-reveal>Contato</p>
+      <h2 class="h2" data-reveal data-delay="80">Vamos conversar sobre o seu projeto.</h2>
+      <p class="lead" data-reveal data-delay="160">Conte um pouco sobre o terreno, o prazo e o que você imagina. Respondemos em até dois dias úteis.</p>
+      <dl class="contact__dl" data-reveal data-delay="200">
+        <div><dt class="micro">E-mail</dt><dd><a href="mailto:contato@estudio.com.br">contato@estudio.com.br</a></dd></div>
+        <div><dt class="micro">Telefone</dt><dd><a href="tel:+551100000000">+55 11 0000-0000</a></dd></div>
+        <div><dt class="micro">Endereço</dt><dd>Rua Exemplo, 100 · São Paulo, SP</dd></div>
+      </dl>
+    </div>
+
+    <div data-reveal data-delay="120">
+      <form class="form" id="form" novalidate>
+        <div class="form__row">
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Seu nome completo" required>
+            <p class="field__err" id="err-nome" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="voce@email.com" required>
+            <p class="field__err" id="err-email" role="alert"></p>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label for="tel">Telefone (opcional)</label>
+            <input id="tel" name="tel" type="tel" autocomplete="tel" placeholder="(11) 90000-0000">
+            <p class="field__err" id="err-tel" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="tipo">Tipo de projeto</label>
+            <div class="selwrap">
+              <select id="tipo" name="tipo" required>
+                <option value="">Selecione</option>
+                <option>Casa nova</option>
+                <option>Reforma</option>
+                <option>Interiores</option>
+                <option>Projeto cultural ou comercial</option>
+                <option>Outro</option>
+              </select>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+            </div>
+            <p class="field__err" id="err-tipo" role="alert"></p>
+          </div>
+        </div>
+        <div class="field field--full">
+          <label for="msg">Mensagem</label>
+          <textarea id="msg" name="msg" rows="3" placeholder="Fale sobre o terreno, prazo e o que você imagina" required></textarea>
+          <p class="field__err" id="err-msg" role="alert"></p>
+        </div>
+        <div class="form__foot">
+          <p class="micro form__legal">Seus dados são usados apenas para responder a este contato.</p>
+          <button class="btn btn--solid form__btn" type="submit">
+            <span class="btn__label">Enviar mensagem</span>
+            <span class="btn__arrow" aria-hidden="true">→</span>
+            <span class="btn__spinner" aria-hidden="true"></span>
+          </button>
+        </div>
+      </form>
+
+      <div class="form__done" id="formDone" hidden tabindex="-1">
+        <span class="form__check" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9.5l4 4 8-9"/></svg>
+        </span>
+        <h3 class="h3">Mensagem enviada.</h3>
+        <p>Obrigado pelo contato. Retornamos em até dois dias úteis.</p>
+      </div>
+    </div>
+
+    <aside class="contact__aside" data-reveal data-delay="200">
+      <figure class="contact__fig"><img src="img/contato.jpg" alt="Escritório do estúdio" loading="lazy"></figure>
+      <p class="serif-i">“A casa foi feita para o nosso jeito de viver.”</p>
+    </aside>
+  </div>
+</section>
+
+</main>
+
+<!-- footer -->
+<footer class="ftr">
+  <div class="shell">
+    <div class="ftr__grid">
+      <div class="ftr__brand">
+        <a class="logo" href="#topo" aria-label="Estúdio — topo">
+          <span class="logo__mark" aria-hidden="true">E</span>
+          <span class="logo__txt">Estúdio</span>
+        </a>
+        <p class="ftr__tag">Arquitetura e interiores com rigor de processo e atenção ao lugar.</p>
+      </div>
+      <div class="ftr__col">
+        <p class="micro ftr__ttl">Navegar</p>
+        <a href="#filosofia">Filosofia</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="ftr__col">
+        <p class="micro ftr__ttl">Contato</p>
+        <a href="mailto:contato@estudio.com.br">contato@estudio.com.br</a>
+        <a href="tel:+551100000000">+55 11 0000-0000</a>
+        <p>Rua Exemplo, 100<br>São Paulo, SP</p>
+      </div>
+      <div class="ftr__col">
+        <p class="micro ftr__ttl">Social</p>
+        <a class="ftr__social" href="#" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
+        <a class="ftr__social" href="#" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="ftr__social" href="#" rel="noopener">Pinterest <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="ftr__news">
+        <p class="micro ftr__ttl" style="color:rgba(247,246,242,.42);margin-bottom:10px">Newsletter</p>
+        <p class="ftr__newsTxt">Novos projetos e bastidores de obra, sem excesso.</p>
+        <form class="news" id="news" novalidate>
+          <label class="sr-only" for="newsEmail">Seu e-mail</label>
+          <input id="newsEmail" type="email" autocomplete="email" placeholder="Seu e-mail">
+          <button type="submit" aria-label="Assinar newsletter">→</button>
+        </form>
+        <p class="news__msg" id="newsMsg" role="status"></p>
+      </div>
+    </div>
+    <div class="ftr__bar">
+      <p class="micro">© 2026 Estúdio. Todos os direitos reservados.</p>
+      <div class="ftr__links">
+        <a class="micro" href="#">Privacidade</a>
+        <a class="micro" href="#">Termos</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
